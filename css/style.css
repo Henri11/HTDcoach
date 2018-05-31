@@ -42,7 +42,7 @@ p{
 }
 
 .black {
-  background: !important;
+  background: white!important;
   color: white;
   transition: 1s;
 }
@@ -286,6 +286,7 @@ footer img {
     .about{
         background-position:right!important;
         background-attachment: local;
+        padding-right: 0px;
     }
     
     .rdv-img{
@@ -305,11 +306,9 @@ footer img {
     
     .contact{
         background-position: local!important;
-/*        background-attachment: local;*/
+        background-attachment: local;
     }
     
     
-    .header-img{
-        background-position: local!important;
-    }
+    
 }
