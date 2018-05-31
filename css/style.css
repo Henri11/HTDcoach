@@ -304,7 +304,7 @@ footer img {
     }
     
     .contact{
-        background-position: center!important;
-        background-attachment: local;
+        background-position: local!important;
+/*        background-attachment: local;*/
     }
 }
