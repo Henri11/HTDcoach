@@ -143,7 +143,7 @@ img{
 /*CONTACT*/
 
 .contact-img {
-    background: url('../img/render-1477041_1280%20copy.jpg');
+    background: url('../img/treadmill-1201014_1280%20copy.jpg');
      background-size: cover;
     background-position: right;
     height: 700px;
@@ -296,6 +296,10 @@ footer img {
     .rdv-img{
         background-position: left!important;
         background-attachment: local;
+        background: url('../img/street-workout-2682499_1280%20copy.jpg');
+        background-size: cover;
+    height: 550px;
+    width: 100%;
     }
     
     .programs{
@@ -311,6 +315,10 @@ footer img {
     .contact{
         background-position: local!important;
         background-attachment: local;
+        background: url('../img/chalk-2307894_1280%20copy.jpg');
+        background-size: cover;
+    height: 550px;
+    width: 100%;
     }
     
      .black {
