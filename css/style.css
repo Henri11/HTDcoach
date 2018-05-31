@@ -294,7 +294,7 @@ footer img {
     }
     
     .rdv-img{
-        background-position: right!important;
+        background-position: left!important;
         background-attachment: local;
         background: url('../img/street-workout-2682499_1280%20copy.jpg');
         background-size: cover;
@@ -313,7 +313,7 @@ footer img {
     }
     
     .contact{
-        background-position: local!important;
+        background-position: right!important;
         background-attachment: local;
         background: url('../img/chalk-2307894_1280%20copy.jpg');
         background-size: cover;
