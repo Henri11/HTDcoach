@@ -75,7 +75,7 @@ p{
     background-position: center;
     background-attachment: fixed;
     height: 550px;
-    width: 100%;
+/*    width: 100%;*/
 }
 
 .well-block {
@@ -101,7 +101,7 @@ img{
     background-position: right;
     background-attachment: fixed;
     height: 550px;
-    width: 100%;
+/*    width: 100%;*/
 }
 
 .programs{
@@ -110,7 +110,7 @@ img{
     background-position: center;
     background-attachment: fixed;
     height: 550px;
-    width: 100%;
+/*    width: 100%;*/
 
 }
 
@@ -286,7 +286,7 @@ footer img {
     .about{
         background-position:right!important;
         background-attachment: local;
-        padding-right: 0px;
+        padding-right: 0px;      
     }
     
     .rdv-img{
