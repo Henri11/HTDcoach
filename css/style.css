@@ -118,7 +118,7 @@ img{
     background: url('../img/tyre-flipping-2141109_1280.jpg');
     background-size: cover;
     background-position: center;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
     height: 500px;
     width: 100%;
 }
@@ -127,7 +127,7 @@ img{
     background: url('../img/chalk-2307894_1280.jpg');
     background-size: cover;
     background-position: center;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
     height: 500px;
     width: 100%;
 }
