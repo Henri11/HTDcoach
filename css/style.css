@@ -32,7 +32,7 @@ p{
 /*HEADER*/
 
 .header-img {
-    background: url('../img/muscle-2459720_1280.jpg');
+    background: url('../img/muscle-2459720_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -42,8 +42,8 @@ p{
 }
 
 .black {
-  background: white!important;
-  color: white;
+  background: black!important;
+  color: white!important;
   transition: 1s;
 }
 .black li a.nav-item, .black li a.nav-link{
@@ -70,12 +70,12 @@ p{
     padding-bottom:30px;
 }
 .rdv-img {
-    background: url('../img/street-workout-2682499_1280.jpg');
+    background: url('../img/street-workout-2682499_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 550px;
-/*    width: 100%;*/
+    width: 100%;
 }
 
 .well-block {
@@ -95,27 +95,27 @@ img{
 }
 
 .about{
-    background: url('../img/girl-boxer-1333600_1280.jpg');
+    background: url('../img/girl-boxer-1333600_1280%20copy.jpg');
     background-size: cover;
     background-repeat: n;
     background-position: right;
     background-attachment: fixed;
     height: 550px;
-/*    width: 100%;*/
+    width: 100%;
 }
 
 .programs{
-    background: url('../img/people-2572265_1280.jpg');
+    background: url('../img/people-2572265_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 550px;
-/*    width: 100%;*/
+    width: 100%;
 
 }
 
 .galerie{
-    background: url('../img/tyre-flipping-2141109_1280.jpg');
+    background: url('../img/tyre-flipping-2141109_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -124,7 +124,7 @@ img{
 }
 
 .contact{
-    background: url('../img/chalk-2307894_1280.jpg');
+    background: url('../img/chalk-2307894_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -286,7 +286,7 @@ footer img {
     .about{
         background-position:right!important;
         background-attachment: local;
-        padding-right: 0px;      
+        padding-right: 0px; 
     }
     
     .rdv-img{
@@ -309,6 +309,17 @@ footer img {
         background-attachment: local;
     }
     
-    
+     .black {
+        background: black!important;
+        color: white;
+
+    }
+    .black li a.nav-item,
+    .black li a.nav-link {
+        color: white!important;
+    }
+    .navbar-toggler{
+        background:dimgrey ;
+    }
     
 }
