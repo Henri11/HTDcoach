@@ -294,7 +294,7 @@ footer img {
     }
     
     .rdv-img{
-        background-position: left!important;
+        background-position: right!important;
         background-attachment: local;
         background: url('../img/street-workout-2682499_1280%20copy.jpg');
         background-size: cover;
