@@ -32,7 +32,7 @@ p{
 /*HEADER*/
 
 .header-img {
-    background: url('../img/muscle-2459720_1280%20copy.jpg');
+    background: url('../img/people-2590796_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -74,7 +74,7 @@ p{
     padding-bottom:30px;
 }
 .rdv-img {
-    background: url('../img/street-workout-2682499_1280%20copy.jpg');
+    background: url('../img/treadmill-1201014_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -109,9 +109,9 @@ img{
 }
 
 .programs{
-    background: url('../img/people-2572265_1280%20copy.jpg');
+    background: url('../img/smog-1488962_1280%20copy.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     height: 550px;
     width: 100%;
@@ -121,14 +121,14 @@ img{
 .galerie{
     background: url('../img/tyre-flipping-2141109_1280%20copy.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     height: 550px;
     width: 100%;
 }
 
 .contact{
-    background: url('../img/chalk-2307894_1280%20copy.jpg');
+    background: url('../img/treadmill-1201014_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
