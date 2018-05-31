@@ -283,5 +283,28 @@ footer img {
         background: #17A2B8;
         color: white!important;
     }
+    .about{
+        background-position:right!important;
+        background-attachment: local;
+    }
     
+    .rdv-img{
+        background-position: left!important;
+        background-attachment: local;
+    }
+    
+    .programs{
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+    .galerie{
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+    .contact{
+        background-position: center!important;
+        background-attachment: local;
+    }
 }
