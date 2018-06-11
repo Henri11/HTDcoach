@@ -1,32 +1,35 @@
 /*GENERAL*/
-
-.container-fluid{
-    padding: 0px;
-}
-
 .btn {
     border: none;
     margin: 30px;
 }
 
-.btn:hover{
+.btn:hover {
     color: white!important;
 }
 
-h2,h1{
+h2,
+h1 {
     padding: 40px;
 }
 
-h3,.i-service{
+
+.titre-h2 {
+    font-size: 3em;
+}
+
+h3,
+.i-service {
     color: #17A2B8;
 }
-hr{
+
+hr {
     border: 0.5px solid black;
     width: 200px;
-} 
+}
 
-p{
-    
+.titre{
+    background: rgba(100, 100, 100, 0.5);
 }
 
 /*HEADER*/
@@ -42,37 +45,44 @@ p{
 }
 
 .black {
-  background: black!important;
-  color: white!important;
-  transition: 1s;
-}
-.black li a.nav-item, .black li a.nav-link{
-  color: white!important;
-}
-.navbar-dark{
-  transition: 1s;
+    background: black!important;
+    color: white!important;
+    transition: 1s;
 }
 
-.logo{
+.black li a.nav-item,
+.black li a.nav-link {
+    color: white!important;
+}
+
+.navbar-dark {
+    transition: 1s;
+}
+
+.logo {
     width: 150px;
-    
+
 }
 
-.navbar{
+.navbar {
     padding-bottom: 0px;
     padding-top: 0px;
-    
+
 }
 
 /*CORPS*/
-.service{
-    
-    padding-bottom:30px;
+
+
+.service {
+
+    padding-bottom: 30px;
 }
-.offre-img{
+
+.offre-img {
     padding-top: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
+
 .rdv-img {
     background: url('../img/treadmill-1201014_1280%20copy.jpg');
     background-size: cover;
@@ -84,7 +94,7 @@ p{
 
 .well-block {
     color: white;
-/*    border: 1px solid #e9e6e8;*/
+    /*    border: 1px solid #e9e6e8;*/
     /*    padding: 40px;*/
 }
 
@@ -92,13 +102,13 @@ p{
     margin-bottom: 40px;
 }
 
-img{
+img {
     width: 100%;
-    
+
     padding: 15px;
 }
 
-.about{
+.about {
     background: url('../img/girl-boxer-1333600_1280%20copy.jpg');
     background-size: cover;
     background-repeat: n;
@@ -108,7 +118,7 @@ img{
     width: 100%;
 }
 
-.programs{
+.programs {
     background: url('../img/smog-1488962_1280%20copy.jpg');
     background-size: cover;
     background-position: top;
@@ -118,7 +128,7 @@ img{
 
 }
 
-.galerie{
+.photo {
     background: url('../img/tyre-flipping-2141109_1280%20copy.jpg');
     background-size: cover;
     background-position: top;
@@ -127,7 +137,16 @@ img{
     width: 100%;
 }
 
-.contact{
+.video {
+    background: url('../img/blur-1972569_1280.jpg')     ;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 550px;
+    width: 100%;
+}
+
+.contact {
     background: url('../img/treadmill-1201014_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
@@ -136,116 +155,278 @@ img{
     width: 100%;
 }
 
+/*PHOTO ET VIDEO */
+
+#photo {
+    background: url('../img/fitness-465203_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    padding-right: 0px;
+}
+
+#video {
+    background: url('../img/blur-1972569_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    padding-right: 0px;
+}
 
 /*ABOUT*/
 
+#about {
+    background: url('../img/bodybuilder-925770_1280.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    width: 100%;
+    padding-right: 0px;
+}
+
+/*PROGRAMME*/
+
+
+.service1 {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: black;
+    
+}
+
+.service1:hover {
+    background-color: darkblue;
+    color: white!important;
+    opacity: 0.7;
+
+}
+
+.service2 {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: black;
+}
+
+.service2:hover {
+    background: darkred;
+    color: white!important;
+    opacity: 0.7;
+
+
+}
+
+.service3 {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: black;
+}
+
+.service3:hover {
+    background-color: darkgreen;
+    color: white!important;
+    opacity: 0.7;
+
+}
+
+.i-suivi{  
+    color: darkblue;
+}
+
+
+.i-sportif{  
+    color: darkred;
+}
+
+
+.i-nutritif{  
+    color: darkgreen;
+}
 
 /*CONTACT*/
 
-.contact-img {
-    background: url('../img/treadmill-1201014_1280%20copy.jpg');
-     background-size: cover;
-    background-position: right;
-    height: 700px;
-    width: 1300px;
+
+
+#contact-page {
+  background: url("https://res.cloudinary.com/elcoilombe/image/upload/v1527866808/box-1609657_1280.jpg") no-repeat;
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 550px;
+    width: 100%;
+    padding-top: 23px;
 }
 
-.
-	/* Conatct start */
+iframe{
+    padding-top: 20px;   
+}
 
-        .header-title
-        {
-          text-align: center;
-          color:#00bfff;
-        }
 
-        #tip 
-        {
-            display:none;  
-        }
 
-        .fadeIn
-        {
-          animation-duration: 3s;
-        }
 
-        .form-control
-        {
-        	border-radius:0px;
-        	border:1px solid #EDEDED;
-        }
 
-        .form-control:focus
-        {
-        	border:1px solid #00bfff;
-        }
+/* Conatct start */
 
-        .textarea-contact
-        {
-        	resize:none; 
-        }
+.header-title {
+    text-align: center;
+    color: #00bfff;
+}
 
-        .btn-send
-        {
-        	border-radius: 0px;
-        	border:1px solid #00bfff;
-        	background:#00bfff;
-        	color:#fff; 
-        }
+#tip {
+    display: none;
+}
 
-        .btn-send:hover
-        {
-        	border:1px solid #00bfff;
-        	background:#fff;
-        	color:#00bfff;
-        	transition:background 0.1s;   
-        }
+.fadeIn {
+    animation-duration: 3s;
+}
 
-        .second-portion
-        {
-        	margin-top:50px; 
-        }
+.form-control {
+    border-radius: 0px;
+    border: 1px solid #EDEDED;
+}
 
-		        @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
-		@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+.form-control:focus {
+    border: 1px solid #00bfff;
+}
 
-		.box > .icon { text-align: center; position: relative; }
-		.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #00bfff; vertical-align: middle; }
-		.box > .icon:hover > .image { background: #333; }
-		.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
-		.box > .icon:hover > .image > i { color: white !important; }
-		.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
-		.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
-		.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
-		.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
-		.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
-		.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
-		.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
-		.box .space { height: 30px; }
+.textarea-contact {
+    resize: none;
+}
 
-		@media only screen and (max-width: 768px)
-		{
-			.contact-form
-			{
-				margin-top:25px; 
-			}
+.btn-send {
+    border-radius: 0px;
+    border: 1px solid #00bfff;
+    background: #00bfff;
+    color: #fff;
+}
 
-			.btn-send
-			{
-				width: 100%;
-				padding:10px; 
-			}
+.btn-send:hover {
+    border: 1px solid #00bfff;
+    background: #fff;
+    color: #00bfff;
+    transition: background 0.1s;
+}
 
-			.second-portion
-			{
-				margin-top:25px; 
-			}
-		}
-#parent{
+.second-portion {
+    margin-top: 50px;
+}
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box > .icon {
+    text-align: center;
+    position: relative;
+}
+
+.box > .icon > .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    border: 8px solid white;
+    line-height: 88px;
+    border-radius: 50%;
+    background: #00bfff;
+    vertical-align: middle;
+}
+
+.box > .icon:hover > .image {
+    background: #333;
+}
+
+.box > .icon > .image > i {
+    font-size: 36px !important;
+    color: #fff !important;
+}
+
+.box > .icon:hover > .image > i {
+    color: white !important;
+}
+
+.box > .icon > .info {
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid #e0e0e0;
+    padding: 15px 0 10px 0;
+    min-height: 163px;
+}
+
+.box > .icon:hover > .info {
+    background: rgba(0, 0, 0, 0.04);
+    border-color: #e0e0e0;
+    color: white;
+}
+
+.box > .icon > .info > h3.title {
+    font-family: "Robot", sans-serif !important;
+    font-size: 16px;
+    color: #222;
+    font-weight: 700;
+}
+
+.box > .icon > .info > p {
+    font-family: "Robot", sans-serif !important;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+.box > .icon:hover > .info > h3.title,
+.box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+    color: #222;
+}
+
+.box > .icon > .info > .more a {
+    font-family: "Robot", sans-serif !important;
+    font-size: 12px;
+    color: #222;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.box > .icon:hover > .info > .more > a {
+    color: #fff;
+    padding: 6px 8px;
+    background-color: #63B76C;
+}
+
+.box .space {
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .btn-send {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .second-portion {
+        margin-top: 25px;
+    }
+}
+
+#parent {
     padding-top: 30px;
     margin-top: 30px;
 }
-	/* Conatct end */
+
+/* Conatct end */
 
 /*FOOTER*/
 
@@ -253,7 +434,7 @@ footer {
     background: ;
     /*    margin: 15px 0 10px 0;*/
     color: ;
-    
+
 }
 
 footer a {
@@ -272,56 +453,58 @@ footer img {
     width: 150px;
 }
 
-#singlebutton:hover{
-    background:#17A2B8;
+#singlebutton:hover {
+    background: #17A2B8;
     color: white!important;
 }
 
 /*MEDIA QUERIES*/
+
 @media screen and (max-width: 768px) {
-  .well-title,.ook {
-    display:none;
-    
-  }
-    .btn-info{
+    .well-title,
+    .ook {
+        display: none;
+
+    }
+    .btn-info {
         background: #17A2B8;
         color: white!important;
     }
-    .about{
-        background-position:right!important;
+    .about {
+        background-position: right!important;
         background-attachment: local;
-        padding-right: 0px; 
+        padding-right: 0px;
     }
-    
-    .rdv-img{
+
+    .rdv-img {
         background-position: center!important;
         background-attachment: local;
         background: url('../img/street-workout-2682499_1280%20copy.jpg');
         background-size: cover;
-    height: 550px;
-    width: 100%;
+        height: 550px;
+        width: 100%;
     }
-    
-    .programs{
+
+    .programs {
         background-position: center!important;
         background-attachment: local;
     }
-    
-    .galerie{
+
+    .galerie {
         background-position: center!important;
         background-attachment: local;
     }
-    
-    .contact{
+
+    .contact {
         background-position: center!important;
         background-attachment: local;
         background: url('../img/chalk-2307894_1280%20copy.jpg');
         background-size: cover;
-    height: 550px;
-    width: 100%;
+        height: 550px;
+        width: 100%;
     }
-    
-     .black {
+
+    .black {
         background: black!important;
         color: white;
 
@@ -330,8 +513,10 @@ footer img {
     .black li a.nav-link {
         color: white!important;
     }
-    .navbar-toggler{
-        background:dimgrey ;
+    .navbar-toggler {
+        background: dimgrey;
     }
     
+    
+   
 }
