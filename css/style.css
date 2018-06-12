@@ -282,7 +282,7 @@ background-size: cover;
     background-attachment: fixed;
     height: 550px;
     width: 100%;
-    padding-top: 23px;
+    padding: 50px 0 20px 0;
 }
 
 iframe{
@@ -567,6 +567,8 @@ footer img {
         background: dimgrey;
     }
     
-    
+    .lui{
+        display: none;
+    }
    
 }
