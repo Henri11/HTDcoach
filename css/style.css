@@ -186,6 +186,11 @@ img {
     padding-right: 0px;
 }
 
+.about-img img{
+    height: 400px;
+    width: 500px;
+}
+
 /*PROGRAMME*/
 
 
@@ -514,6 +519,11 @@ footer img {
         background-size: cover;
         height: 550px;
         width: 100%;
+    }
+    
+    .about-img img{
+        width: 300px;
+        height: 300px;
     }
 
     .black {
