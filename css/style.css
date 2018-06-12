@@ -136,7 +136,7 @@ img {
 }
 
 .video {
-    background: url('../img/blur-1972569_1280.jpg')     ;
+    background: url('../img/blur-1972569_1280%20copy.jpg')     ;
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -156,7 +156,7 @@ img {
 /*PHOTO ET VIDEO */
 
 #photo {
-    background: url('../img/fitness-465203_1280.jpg');
+    background: url('../img/fitness-465203_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -165,7 +165,7 @@ img {
 }
 
 #video {
-    background: url('../img/blur-1972569_1280.jpg');
+    background: url('../img/blur-1972569_1280%20copy.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -176,7 +176,7 @@ img {
 /*ABOUT*/
 
 #about {
-    background: url('../img/bodybuilder-925770_1280.jpg');
+    background: url('../img/bodybuilder-925770_1280%20copy.jpg');
     background-size: cover;
     background-position: bottom;
     height: 500px;
