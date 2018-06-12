@@ -8,10 +8,12 @@
     color: white!important;
 }
 
+/*
 h2,
 h1 {
     padding: 40px;
 }
+*/
 
 
 .titre-h2 {
@@ -33,8 +35,7 @@ hr {
 }
 
 strong{
-    font-size: 25px;
-}
+
 /*HEADER*/
 
 .header-img {
@@ -43,7 +44,6 @@ strong{
     background-position: center;
     height: 700px;
     width: 100%;
-    padding-right: 0px;
 
 }
 
@@ -573,5 +573,9 @@ footer img {
     .lui{
         display: none;
     }
+    
+    strong{
+    font-size: 25px;
+}
    
 }
