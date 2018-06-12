@@ -192,7 +192,16 @@ img {
 }
 
 /*PROGRAMME*/
-
+ 
+#programme{
+     background: url('../img/people-2572265_1280%20copy.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    width: 100%;
+    padding-right: 0px;
+}
+}
 
 .service1 {
     border: 1px solid black;
@@ -257,7 +266,14 @@ img {
 
 /*CONTACT*/
 
-
+#contact{
+     background: url('../img/muscle-2459720_1280%20copy.jpg')    ;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    width: 100%;
+    padding-right: 0px;
+}
 
 #contact-page {
   background: url("https://res.cloudinary.com/elcoilombe/image/upload/v1527866808/box-1609657_1280.jpg") no-repeat;
@@ -511,6 +527,18 @@ footer img {
         background-position: center!important;
         background-attachment: local;
     }
+    
+    #contact-page{
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+    #programme{
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+   
 
     .contact {
         background-position: center!important;
