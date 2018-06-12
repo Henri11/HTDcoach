@@ -406,6 +406,8 @@ iframe{
     height: 30px;
 }
 
+
+
 @media only screen and (max-width: 768px) {
     .contact-form {
         margin-top: 25px;
@@ -491,6 +493,16 @@ footer img {
     }
 
     .galerie {
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+    .video{
+        background-position: center!important;
+        background-attachment: local;
+    }
+    
+    .photo{
         background-position: center!important;
         background-attachment: local;
     }
