@@ -32,6 +32,9 @@ hr {
     background: rgba(100, 100, 100, 0.5);
 }
 
+strong{
+    font-size: 25px;
+}
 /*HEADER*/
 
 .header-img {
