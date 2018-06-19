@@ -38,16 +38,16 @@ img {
 /*HEADER*/
 
 .header-img {
-    background: url('../img/people-2590796_1280%20copy.jpg');
+    background: url('../img/WhatsApp%204%20Image%202018-06-13%20at%2017.08.12.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 700px;
     width: 100%;
 
 }
 
 .black {
-    background: black!important;
+    background: !important;
     color: white!important;
     transition: 1s;
 }
@@ -107,17 +107,16 @@ img {
 
 
 .about {
-    background: url('../img/girl-boxer-1333600_1280%20copy.jpg');
+    background: url('../img/WhatsApp%205%20Image%202018-06-13%20at%2017.07.31.jpg');
     background-size: cover;
-    background-repeat: n;
-    background-position: right;
+    background-position: top;
     background-attachment: fixed;
     height: 550px;
     width: 100%;
 }
 
 .programs {
-    background: url('../img/smog-1488962_1280%20copy.jpg');
+    background: url('../img/WhatsApp%201%20Image%202018-06-16%20at%2009.03.30.jpg');
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -127,7 +126,7 @@ img {
 }
 
 .photo {
-    background: url('../img/tyre-flipping-2141109_1280%20copy.jpg');
+    background: url('../img/WhatsApp%202%20Image%202018-06-16%20at%2009.02.29.jpg');
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -136,7 +135,7 @@ img {
 }
 
 .video {
-    background: url('../img/blur-1972569_1280%20copy.jpg')     ;
+    background: url('../img/WhatsApp%205%20Image%202018-06-13%20at%2017.07.31.jpg')     ;
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -554,7 +553,7 @@ footer img {
     }
 
     .black {
-        background: black!important;
+        background: !important;
         color: white;
 
     }
@@ -563,7 +562,7 @@ footer img {
         color: white!important;
     }
     .navbar-toggler {
-        background: dimgrey;
+        display: none;
     }
     
     .lui{
